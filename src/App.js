@@ -17,27 +17,17 @@ import {
   MarkdownSlide,
   MarkdownSlideSet,
 } from 'spectacle';
-import Title from "./PointBall/Slides/Title";
+import Title from "./InverseKine/Slides/Title";
 import Procedural from "./PointBall/Slides/Procedural";
 import CodeProcedural from "./PointBall/Slides/CodeProcedural";
 import Funcional from "./PointBall/Slides/Funcional";
 import CodeFuncional from "./PointBall/Slides/CodeFuncional";
 import CodeBadFuncional from "./PointBall/Slides/CodeBadFuncional";
+import Theme from "./PointBall/Theme";
 
 const formidableLogo =
     'https://avatars2.githubusercontent.com/u/5078602?s=280&v=4';
 
-export const Theme = {
-    colors: {
-        primary: '##f1f2f6',
-        secondary: '#ff4c30\n',
-        tertiary: '#faf4d3\n'
-    },
-    fonts: {
-        header: 'Lato, "Open Sans Condensed", Helvetica, Arial, sans-serif',
-        text: 'Lato, "Open Sans Condensed", Helvetica, Arial, sans-serif'
-    }
-};
 // SPECTACLE_CLI_THEME_END
 
 // SPECTACLE_CLI_TEMPLATE_START
