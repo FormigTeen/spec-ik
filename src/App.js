@@ -18,12 +18,14 @@ import {
   MarkdownSlideSet,
 } from 'spectacle';
 import Title from "./InverseKine/Slides/Title";
-import Procedural from "./PointBall/Slides/Procedural";
 import CodeProcedural from "./PointBall/Slides/CodeProcedural";
 import Funcional from "./PointBall/Slides/Funcional";
 import CodeFuncional from "./PointBall/Slides/CodeFuncional";
 import CodeBadFuncional from "./PointBall/Slides/CodeBadFuncional";
-import Theme from "./PointBall/Theme";
+import Theme from "./InverseKine/Theme";
+import Introduction from "./InverseKine/Slides/Introduction/Introduction";
+import IntroductionKine from "./InverseKine/Slides/IntroductionKine";
+import ReactKatex from "@pkasila/react-katex";
 
 const formidableLogo =
     'https://avatars2.githubusercontent.com/u/5078602?s=280&v=4';
@@ -68,7 +70,20 @@ const SlideFragments = () => (
 const Presentation = () => (
     <Deck theme={Theme} template={template}>
       <Title />
-        <Procedural />
+        <IntroductionKine />
+        <Introduction />
+        <Slide>
+            <Heading>Definição Formal do Problema IK</Heading>
+            <FlexBox flexDirection="column" height="100%">
+                <Box>
+                    <div style={{fontSize: '40px'}}>
+                        <ReactKatex>
+                            {'\\[ f(\\theta) = s = \\left[ \\begin{array}{c} f_2(\\theta) \\\\ f_2(\\theta) \\\\ \\vdots \\\\ f_n(\\theta) \\end{array} \\right] \\]'}
+                        </ReactKatex>
+                    </div>
+                </Box>
+            </FlexBox>
+        </Slide>
         <CodeProcedural />
         <Funcional />
         <CodeBadFuncional />
