@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.js": "/spec-ik/static/js/main.fd386166.js",
+    "main.js": "/spec-ik/static/js/main.4982299e.js",
     "static/js/787.42474090.chunk.js": "/spec-ik/static/js/787.42474090.chunk.js",
+    "static/media/dofs.gif": "/spec-ik/static/media/dofs.13f2d59ccddcd20e38d2.gif",
     "index.html": "/spec-ik/index.html",
-    "main.fd386166.js.map": "/spec-ik/static/js/main.fd386166.js.map",
+    "main.4982299e.js.map": "/spec-ik/static/js/main.4982299e.js.map",
     "787.42474090.chunk.js.map": "/spec-ik/static/js/787.42474090.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fd386166.js"
+    "static/js/main.4982299e.js"
   ]
 }
