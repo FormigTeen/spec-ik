@@ -3,7 +3,7 @@ import {
     FlexBox,
     Box,
     Heading,
-    Slide, UnorderedList, ListItem, Image, Appear, Stepper, Quote
+    Slide, Image, Quote
 } from 'spectacle';
 import Gif from "./Assets/dofs.gif"
 
