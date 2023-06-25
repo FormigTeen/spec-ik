@@ -25,7 +25,11 @@ import CodeBadFuncional from "./PointBall/Slides/CodeBadFuncional";
 import Theme from "./InverseKine/Theme";
 import Introduction from "./InverseKine/Slides/Introduction/Introduction";
 import IntroductionKine from "./InverseKine/Slides/IntroductionKine";
-import ReactKatex from "@pkasila/react-katex";
+import ArtBody from "./InverseKine/Slides/ArtBody/ArtBody";
+import Motion from "./InverseKine/Slides/Motion";
+import Space from "./InverseKine/Slides/Space/Space";
+import LatexSimple from "./Slides/Text/LatexSimple";
+import SpaceExample from "./InverseKine/Slides/SpaceExample/SpaceExample";
 
 const formidableLogo =
     'https://avatars2.githubusercontent.com/u/5078602?s=280&v=4';
@@ -72,18 +76,16 @@ const Presentation = () => (
       <Title />
         <IntroductionKine />
         <Introduction />
-        <Slide>
-            <Heading>Definição Formal do Problema IK</Heading>
-            <FlexBox flexDirection="column" height="100%">
-                <Box>
-                    <div style={{fontSize: '40px'}}>
-                        <ReactKatex>
-                            {'\\[ f(\\theta) = s = \\left[ \\begin{array}{c} f_2(\\theta) \\\\ f_2(\\theta) \\\\ \\vdots \\\\ f_n(\\theta) \\end{array} \\right] \\]'}
-                        </ReactKatex>
-                    </div>
-                </Box>
-            </FlexBox>
-        </Slide>
+        <LatexSimple title={'Definição Formal do Problema IK'}>
+            {'\\[ f(\\theta) = s = \\left[ \\begin{array}{c} f_2(\\theta) \\\\ f_2(\\theta) \\\\ \\vdots \\\\ f_n(\\theta) \\end{array} \\right] \\]'}
+        </LatexSimple>
+        <ArtBody />
+        <Motion />
+        <Space />
+        <LatexSimple title={'Definição do Espaço Inalcançável'}>
+            {'$d > \\sum_{i=1}^{n-1} d_{i} \\quad \\text{ou} \\quad d < d_{i+1} - \\sum_{i=1}^{n-1} d_{i}$'}
+        </LatexSimple>
+        <SpaceExample />
         <CodeProcedural />
         <Funcional />
         <CodeBadFuncional />

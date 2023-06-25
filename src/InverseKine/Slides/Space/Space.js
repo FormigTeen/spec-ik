@@ -4,23 +4,20 @@ import {
     Heading,
     Quote
 } from 'spectacle';
-import Gif from "./Assets/dofs.gif"
+import Gif from "./Assets/space.gif"
 import Right from "../../../Slides/Imager/Right";
 
-const Introduction = () => <Right src={Gif}>
+const Space = () => <Right src={Gif}>
     <Box>
         <Heading margin="0px" color="primary" fontSize="30px">
-            O Problema dos DoFs
-        </Heading>
-        <Heading margin="0px" color="primary" fontSize="15px">
-            Degrees of Freedom
+            O Espaço Alcançável
         </Heading>
         <Box margin="50px 0px">
             <Quote color="secondary" fontSize="25px">
-                Como alcançar uma Posição ou Alvo dado os DoFs de um Objeto?
+                Qais são os Pontos que podem ser alcançados dados os Joints e Links?
             </Quote>
         </Box>
     </Box>
 </Right>
 
-export default Introduction
+export default Space
