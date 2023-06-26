@@ -19,7 +19,6 @@ import {
 } from 'spectacle';
 import Title from "./InverseKine/Slides/Title";
 import CodeProcedural from "./PointBall/Slides/CodeProcedural";
-import Funcional from "./PointBall/Slides/Funcional";
 import CodeFuncional from "./PointBall/Slides/CodeFuncional";
 import CodeBadFuncional from "./PointBall/Slides/CodeBadFuncional";
 import Theme from "./InverseKine/Theme";
@@ -30,6 +29,8 @@ import Motion from "./InverseKine/Slides/Motion";
 import Space from "./InverseKine/Slides/Space/Space";
 import LatexSimple from "./Slides/Text/LatexSimple";
 import SpaceExample from "./InverseKine/Slides/SpaceExample/SpaceExample";
+import Analytic from "./InverseKine/Slides/Analytic";
+import AnalyticExample from "./InverseKine/Slides/AnalyticExample/AnalyticExample";
 
 const formidableLogo =
     'https://avatars2.githubusercontent.com/u/5078602?s=280&v=4';
@@ -76,18 +77,26 @@ const Presentation = () => (
       <Title />
         <IntroductionKine />
         <Introduction />
-        <LatexSimple title={'Definição Formal do Problema IK'}>
-            {'\\[ f(\\theta) = s = \\left[ \\begin{array}{c} f_2(\\theta) \\\\ f_2(\\theta) \\\\ \\vdots \\\\ f_n(\\theta) \\end{array} \\right] \\]'}
-        </LatexSimple>
         <ArtBody />
         <Motion />
+        <LatexSimple title={'Definição Formal do Problema FK'}>
+            {
+                '\\[ f(\\theta) = s = \\left[ \\begin{array}{c} f_0(\\theta) \\\\ f_1(\\theta) \\\\ \\vdots \\\\ f_{n-1}(\\theta) \\end{array} \\right] = \\left[ \\begin{array}{c} t_0 - e_0 \\\\ t_1 - e_1 \\\\ \\vdots \\\\ t_{n-1} - e_{n-1} \\end{array} \\right] \\]'
+            }
+        </LatexSimple>
+        <LatexSimple title={'Definição Formal do Problema IK'}>
+            {
+                '\\[ \\theta = f^{-1}(s) = \\left[ \\begin{array}{c} \\theta_0 \\\\ \\theta_1 \\\\ \\vdots \\\\ \\theta_{n-1} \\end{array} \\right] = \\left[ \\begin{array}{c} f_0^{-1}(s_0) \\\\ f_1^{-1}(s_1) \\\\ \\vdots \\\\ f_{n-1}^{-1}(s_{n-1}) \\end{array} \\right] \\]'
+            }
+        </LatexSimple>
         <Space />
         <LatexSimple title={'Definição do Espaço Inalcançável'}>
             {'$d > \\sum_{i=1}^{n-1} d_{i} \\quad \\text{ou} \\quad d < d_{i+1} - \\sum_{i=1}^{n-1} d_{i}$'}
         </LatexSimple>
         <SpaceExample />
+        <Analytic />
+        <AnalyticExample />
         <CodeProcedural />
-        <Funcional />
         <CodeBadFuncional />
         <CodeFuncional />
       <Slide
