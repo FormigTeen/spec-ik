@@ -31,6 +31,10 @@ import LatexSimple from "./Slides/Text/LatexSimple";
 import SpaceExample from "./InverseKine/Slides/SpaceExample/SpaceExample";
 import Analytic from "./InverseKine/Slides/Analytic";
 import AnalyticExample from "./InverseKine/Slides/AnalyticExample/AnalyticExample";
+import Jacobian from "./InverseKine/Slides/Jacobian";
+import JacobianExample from "./InverseKine/Slides/JacobianExample/JacobianExample";
+import Ccd from "./InverseKine/Slides/Ccd";
+import Singularity from "./InverseKine/Slides/Singularity/Singularity";
 
 const formidableLogo =
     'https://avatars2.githubusercontent.com/u/5078602?s=280&v=4';
@@ -96,6 +100,10 @@ const Presentation = () => (
         <SpaceExample />
         <Analytic />
         <AnalyticExample />
+        <Jacobian />
+        <JacobianExample />
+        <Singularity />
+        <Ccd />
         <CodeProcedural />
         <CodeBadFuncional />
         <CodeFuncional />
