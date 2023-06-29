@@ -77,7 +77,7 @@ const SlideFragments = () => (
 
 const Presentation = () => (
     <Deck theme={Theme} template={template}>
-      <Title />
+        <Title />
         <IntroductionKine />
         <Introduction />
         <ArtBody />
@@ -99,6 +99,7 @@ const Presentation = () => (
         <Singularity />
         <Ccd />
         <CcdExample />
+        <Title />
         <CodeProcedural />
         <CodeBadFuncional />
         <CodeFuncional />
