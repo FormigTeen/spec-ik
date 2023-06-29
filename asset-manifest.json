@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.js": "/spec-ik/static/js/main.2942db5b.js",
+    "main.js": "/spec-ik/static/js/main.a55f34c0.js",
     "static/js/787.42474090.chunk.js": "/spec-ik/static/js/787.42474090.chunk.js",
     "static/media/tori.gif": "/spec-ik/static/media/tori.f95e49632916ed05bb0f.gif",
     "static/media/ccd.gif": "/spec-ik/static/media/ccd.f5bee1f38b40358129c2.gif",
     "static/media/ombro.gif": "/spec-ik/static/media/ombro.186f4cfb5cc52ed15f7f.gif",
-    "static/media/pulso.gif": "/spec-ik/static/media/pulso.d3c6e8148a84da939cae.gif",
     "static/media/dofs.gif": "/spec-ik/static/media/dofs.13f2d59ccddcd20e38d2.gif",
-    "static/media/cotovelo.gif": "/spec-ik/static/media/cotovelo.d3e63b77a58dde3b34c9.gif",
     "static/media/space.gif": "/spec-ik/static/media/space.616ac92707811582b93e.gif",
     "static/media/jacobian.png": "/spec-ik/static/media/jacobian.d23feca61d1a43d97770.png",
     "static/media/example.png": "/spec-ik/static/media/example.f74a6008f5cab6b15bf5.png",
     "static/media/case.png": "/spec-ik/static/media/case.80a377892aa3870f5983.png",
     "index.html": "/spec-ik/index.html",
-    "main.2942db5b.js.map": "/spec-ik/static/js/main.2942db5b.js.map",
+    "main.a55f34c0.js.map": "/spec-ik/static/js/main.a55f34c0.js.map",
     "787.42474090.chunk.js.map": "/spec-ik/static/js/787.42474090.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.2942db5b.js"
+    "static/js/main.a55f34c0.js"
   ]
 }
