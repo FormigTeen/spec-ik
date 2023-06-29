@@ -26,9 +26,7 @@ import Introduction from "./InverseKine/Slides/Introduction/Introduction";
 import IntroductionKine from "./InverseKine/Slides/IntroductionKine";
 import ArtBody from "./InverseKine/Slides/ArtBody/ArtBody";
 import Motion from "./InverseKine/Slides/Motion";
-import Space from "./InverseKine/Slides/Space/Space";
 import LatexSimple from "./Slides/Text/LatexSimple";
-import SpaceExample from "./InverseKine/Slides/SpaceExample/SpaceExample";
 import Analytic from "./InverseKine/Slides/Analytic";
 import AnalyticExample from "./InverseKine/Slides/AnalyticExample/AnalyticExample";
 import Jacobian from "./InverseKine/Slides/Jacobian";
@@ -94,8 +92,6 @@ const Presentation = () => (
                 '\\[ \\theta = f^{-1}(s) = \\left[ \\begin{array}{c} \\theta_0 \\\\ \\theta_1 \\\\ \\vdots \\\\ \\theta_{n-1} \\end{array} \\right] = \\left[ \\begin{array}{c} f_0^{-1}(s) \\\\ f_1^{-1}(s) \\\\ \\vdots \\\\ f_{n-1}^{-1}(s) \\end{array} \\right] \\]'
             }
         </LatexSimple>
-        <Space />
-        <SpaceExample />
         <Analytic />
         <AnalyticExample />
         <Jacobian />
