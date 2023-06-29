@@ -91,7 +91,7 @@ const Presentation = () => (
         </LatexSimple>
         <LatexSimple title={'Definição Formal do Problema IK'}>
             {
-                '\\[ \\theta = f^{-1}(s) = \\left[ \\begin{array}{c} \\theta_0 \\\\ \\theta_1 \\\\ \\vdots \\\\ \\theta_{n-1} \\end{array} \\right] = \\left[ \\begin{array}{c} f_0^{-1}(s_0) \\\\ f_1^{-1}(s_1) \\\\ \\vdots \\\\ f_{n-1}^{-1}(s_{n-1}) \\end{array} \\right] \\]'
+                '\\[ \\theta = f^{-1}(s) = \\left[ \\begin{array}{c} \\theta_0 \\\\ \\theta_1 \\\\ \\vdots \\\\ \\theta_{n-1} \\end{array} \\right] = \\left[ \\begin{array}{c} f_0^{-1}(s) \\\\ f_1^{-1}(s) \\\\ \\vdots \\\\ f_{n-1}^{-1}(s) \\end{array} \\right] \\]'
             }
         </LatexSimple>
         <Space />
