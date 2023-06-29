@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.js": "/spec-ik/static/js/main.55d93f57.js",
+    "main.js": "/spec-ik/static/js/main.2942db5b.js",
     "static/js/787.42474090.chunk.js": "/spec-ik/static/js/787.42474090.chunk.js",
     "static/media/tori.gif": "/spec-ik/static/media/tori.f95e49632916ed05bb0f.gif",
+    "static/media/ccd.gif": "/spec-ik/static/media/ccd.f5bee1f38b40358129c2.gif",
     "static/media/ombro.gif": "/spec-ik/static/media/ombro.186f4cfb5cc52ed15f7f.gif",
     "static/media/pulso.gif": "/spec-ik/static/media/pulso.d3c6e8148a84da939cae.gif",
     "static/media/dofs.gif": "/spec-ik/static/media/dofs.13f2d59ccddcd20e38d2.gif",
@@ -12,10 +13,10 @@
     "static/media/example.png": "/spec-ik/static/media/example.f74a6008f5cab6b15bf5.png",
     "static/media/case.png": "/spec-ik/static/media/case.80a377892aa3870f5983.png",
     "index.html": "/spec-ik/index.html",
-    "main.55d93f57.js.map": "/spec-ik/static/js/main.55d93f57.js.map",
+    "main.2942db5b.js.map": "/spec-ik/static/js/main.2942db5b.js.map",
     "787.42474090.chunk.js.map": "/spec-ik/static/js/787.42474090.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.55d93f57.js"
+    "static/js/main.2942db5b.js"
   ]
 }
