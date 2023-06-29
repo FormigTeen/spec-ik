@@ -5,7 +5,7 @@ import {
 } from 'spectacle';
 import Left from "../../Slides/Text/Left";
 
-const Ccd = () => <Left title='Solução CCD (Heurística)'>
+const Ccd = () => <Left title='Solução CCD -  (Heurística)'>
     <Heading margin="0px 32px" color="primary" fontSize="30px">
         Principais Características
     </Heading>

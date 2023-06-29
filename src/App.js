@@ -35,6 +35,7 @@ import Jacobian from "./InverseKine/Slides/Jacobian";
 import JacobianExample from "./InverseKine/Slides/JacobianExample/JacobianExample";
 import Ccd from "./InverseKine/Slides/Ccd";
 import Singularity from "./InverseKine/Slides/Singularity/Singularity";
+import CcdExample from "./InverseKine/Slides/CcdExample";
 
 const formidableLogo =
     'https://avatars2.githubusercontent.com/u/5078602?s=280&v=4';
@@ -94,9 +95,6 @@ const Presentation = () => (
             }
         </LatexSimple>
         <Space />
-        <LatexSimple title={'Definição do Espaço Inalcançável'}>
-            {'$d > \\sum_{i=1}^{n-1} d_{i} \\quad \\text{ou} \\quad d < d_{i+1} - \\sum_{i=1}^{n-1} d_{i}$'}
-        </LatexSimple>
         <SpaceExample />
         <Analytic />
         <AnalyticExample />
@@ -104,6 +102,7 @@ const Presentation = () => (
         <JacobianExample />
         <Singularity />
         <Ccd />
+        <CcdExample />
         <CodeProcedural />
         <CodeBadFuncional />
         <CodeFuncional />

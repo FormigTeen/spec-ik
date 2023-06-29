@@ -10,7 +10,7 @@ import Right from "../../../Slides/Imager/Right";
 const Introduction = () => <Right src={Gif}>
     <Box>
         <Heading margin="0px" color="primary" fontSize="30px">
-            O Problema dos DoFs
+            O Problema Inicial
         </Heading>
         <Heading margin="0px" color="primary" fontSize="15px">
             Degrees of Freedom
